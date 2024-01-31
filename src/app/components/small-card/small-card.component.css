@@ -1,0 +1,24 @@
+.container__small-card-content {
+  /* border: 2px solid white; */
+  width: 43.75rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card__photo > img {
+  width: 12.5rem;
+  min-width: 12.5rem;
+  margin-right: 1rem;
+}
+.small-card__title{
+  width: 43.75rem;
+  height: 8.625rem;
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__small-card>hr{
+  margin: 0.6rem;
+}

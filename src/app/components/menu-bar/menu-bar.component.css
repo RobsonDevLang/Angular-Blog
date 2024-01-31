@@ -1,0 +1,12 @@
+.container__menu-bar{
+  /* margin-top: 1rem; */
+  padding: 1.1rem;
+}
+.container__menu-bar >ul{
+  display: flex;
+  flex-direction: row;
+}
+.container__menu-bar >ul>li{
+  margin-inline: 1.25rem;
+  list-style-type: disc;
+}
