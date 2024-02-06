@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
-import { AppModule } from "./app.module";
 import { HomeComponent } from './pages/home/home.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { AppRoutingModule } from './app.routes';
+import { RouterModule } from '@angular/router';
 
 @Component({
     selector: 'app-root',
@@ -11,9 +12,9 @@ import { HomeComponent } from './pages/home/home.component';
     styleUrl: './app.component.css',
     imports: [
         CommonModule,
-        RouterOutlet,
-        AppModule,
-        HomeComponent
+        HomeComponent,
+        MenuBarComponent,
+        AppRoutingModule,
     ]
 })
 export class AppComponent {
