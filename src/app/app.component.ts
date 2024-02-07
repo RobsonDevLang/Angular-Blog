@@ -4,6 +4,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { AppRoutingModule } from './app.routes';
 import { RouterModule } from '@angular/router';
+import { ContentComponent } from './pages/content/content.component';
+
 
 @Component({
     selector: 'app-root',
@@ -12,9 +14,10 @@ import { RouterModule } from '@angular/router';
     styleUrl: './app.component.css',
     imports: [
         CommonModule,
-        HomeComponent,
+        // HomeComponent,
         MenuBarComponent,
         AppRoutingModule,
+        // ContentComponent,
     ]
 })
 export class AppComponent {
