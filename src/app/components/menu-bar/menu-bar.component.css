@@ -1,12 +1,19 @@
 .container__menu-bar{
   /* margin-top: 1rem; */
   padding: 1.1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 .container__menu-bar >ul{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .container__menu-bar >ul>li{
   margin-inline: 1.25rem;
   list-style-type: disc;
 }
+
+

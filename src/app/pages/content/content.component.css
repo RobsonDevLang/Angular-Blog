@@ -1,0 +1,21 @@
+.content__container{
+  border: 2px solid red;
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content__title{
+  margin: 1rem;
+  border: 2px solid red;
+}
+
+.content__img >img{
+  width: 20rem;
+}
+.content__description{
+  margin-top: 1rem;
+  width: 23.438rem;
+}

@@ -18,6 +18,7 @@ import { ContentComponent } from './pages/content/content.component';
         MenuBarComponent,
         AppRoutingModule,
         // ContentComponent,
+        RouterModule
     ]
 })
 export class AppComponent {
