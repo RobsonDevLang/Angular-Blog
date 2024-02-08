@@ -3,3 +3,6 @@ header{
   flex-direction: row;
   justify-content: center;
 }
+.app__container{
+width: 100%;
+}

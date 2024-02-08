@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { AppRoutingModule } from '../../app.routes';
 import { RouterModule } from '@angular/router';
 
@@ -9,4 +9,15 @@ import { RouterModule } from '@angular/router';
   templateUrl: './big-card.component.html',
   styleUrl: './big-card.component.css',
 })
-export class BigCardComponent {}
+export class BigCardComponent {
+  @Input()
+  bigCardImg:string="";
+  @Input()
+  bigCardTitle:string="Saiu a nova vesão do angular";
+  @Input()
+  bigCardDescription:string="Lorem ipsum, ";
+  @Input()
+  bigCardId:string="1";
+
+
+}
