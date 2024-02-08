@@ -5,12 +5,8 @@ import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-big-card',
   standalone: true,
-  imports: [
-    RouterModule
-  ],
+  imports: [RouterModule],
   templateUrl: './big-card.component.html',
-  styleUrl: './big-card.component.css'
+  styleUrl: './big-card.component.css',
 })
-export class BigCardComponent {
-
-}
+export class BigCardComponent {}

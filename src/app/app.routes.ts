@@ -13,6 +13,11 @@ export const routes: Routes = [
     path: 'content',
     component: ContentComponent,
   },
+  {
+    path: 'content/:id',
+    component: ContentComponent,
+  },
+
 
 ];
 

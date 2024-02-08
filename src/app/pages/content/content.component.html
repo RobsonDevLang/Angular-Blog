@@ -1,26 +1,17 @@
 <div class="content__container">
   <div class="content__title">
-    <h1>título da noticia</h1>
+    <h1>{{contentTitle}}</h1>
   </div>
   <a [routerLink]="['']"> << voltar </a>
   <div class="content__img">
     <img
-      src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg"
+      src="{{contentImg}}"
       alt=""
     />
   </div>
   <div class="content__description">
     <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ipsum
-      amet voluptate mollitia magni ex doloremque quae! Quae, quibusdam nulla,
-      itaque molestias odio, esse iusto voluptatem hic obcaecati tempora
-      dignissimos? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-      Blanditiis sequi labore doloremque totam, ea ad laborum porro aperiam
-      alias eligendi! Rerum veniam quae soluta facilis minus ut corporis eius
-      nobis Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-      nesciunt ipsum molestias! Temporibus exercitationem dolorem eius
-      voluptatum, quaerat voluptatibus corrupti illum vel facilis, totam tenetur
-      possimus, at a numquam eveniet.
+      {{contentDescription}}
     </p>
   </div>
 </div>

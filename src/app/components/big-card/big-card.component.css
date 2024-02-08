@@ -1,4 +1,4 @@
-.container__big-card{
+.container__big-card {
   border: solid white 2px;
   width: 25rem;
   height: 31.5rem;
@@ -10,23 +10,22 @@
   justify-content: flex-start;
 }
 
-.big-card__photo >img{
+.big-card__photo > img {
   height: 18.125rem;
   width: 100%;
   min-width: 25rem;
 }
 
-.big-card__title >h1{
+.big-card__title > h1 {
   font-size: 1.5rem;
   margin-top: 0.5rem;
-
 }
 
-.big-card__description>p{
+.big-card__description > p {
   margin-top: 0.5rem;
   color: gray;
   transition: color 0.3s ease;
 }
-.big-card__description>p:hover{
+.big-card__description > p:hover {
   color: white;
 }
