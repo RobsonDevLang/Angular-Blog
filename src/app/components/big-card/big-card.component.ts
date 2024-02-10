@@ -17,7 +17,7 @@ export class BigCardComponent {
   @Input()
   bigCardDescription:string="Lorem ipsum, ";
   @Input()
-  bigCardId:string="1";
+  bigCardId:string="";
 
 
 }
